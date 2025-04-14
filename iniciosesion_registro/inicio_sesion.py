@@ -21,7 +21,7 @@ def inicio_sesion():
         if registros[usuario_actual]["Contraseña"] == contrasenia:  
             print(f"***** Inicio de sesión exitoso. Bienvenido de nuevo, {usuario_actual} *****")
             
-            from utilidades_menu import ejecucion_menu_inicio  
+            from menu_submenu.utilidades_menu import ejecucion_menu_inicio  
             ejecucion_menu_inicio(usuario_actual)
         else:  
             print("***** Error: Contraseña incorrecta. *****")  
