@@ -1,5 +1,5 @@
-from registro import *
-from inicio_sesion import inicio_sesion
+from iniciosesion_registro.inicio_sesion import *
+from iniciosesion_registro.registro import *
 from gestion_cuentas.registro_cuentas import *
 from transacciones.transacciones import *
 from bolsillos.bolsillos import *
